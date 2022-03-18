@@ -1,0 +1,268 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #303134;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.wrapper {
+  color: aliceblue;
+  margin: auto;
+  height: 98%;
+  width: 98%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-gap: 10px;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  background-color: white;
+}
+
+.box2 {
+  grid-column-start: 4;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  background-color: white;
+}
+
+.box3 {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  background-color: black;
+}
+
+.box4 {
+  grid-column-start: 11;
+  grid-column-end: 13;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: grid;
+  background-color: white;
+}
+
+.box5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: grid;
+  background-color: white;
+}
+
+.box6 {
+  grid-column-start: 3;
+  grid-column-end: 9;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  display: grid;
+  background-color: blue;
+}
+
+.box7 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  display: grid;
+  background-color: yellow;
+}
+
+.box8 {
+  grid-column-start: 9;
+  grid-column-end: 11;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  display: grid;
+  background-color: white;
+}
+
+.box9 {
+  grid-column-start: 11;
+  grid-column-end: 13;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  display: grid;
+  background-color: white;
+}
+
+.box10 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  display: grid;
+  background-color: white;
+}
+
+.box11 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 7;
+  display: grid;
+  background-color: white;
+}
+
+.box12 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  display: grid;
+  background-color: black;
+}
+
+.box13 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  display: grid;
+  background-color: white;
+}
+
+.box13 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  display: grid;
+  background-color: white;
+}
+
+.box14 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 7;
+  grid-row-end: 8;
+  display: grid;
+  background-color: white;
+}
+
+.box15 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  display: grid;
+  background-color: white;
+}
+
+.box16 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 7;
+  grid-row-end: 9;
+  display: grid;
+  background-color: red;
+}
+
+.box17 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 11;
+  display: grid;
+  background-color: blue;
+}
+
+.box18 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 7;
+  grid-row-end: 10;
+  display: grid;
+  background-color: yellow;
+}
+
+.box19 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  display: grid;
+  background-color: white;
+}
+
+.box20 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  display: grid;
+  background-color: white;
+}
+
+.box21 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  display: grid;
+  background-color: white;
+}
+
+.box21 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  display: grid;
+  background-color: white;
+}
+
+.box22 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  display: grid;
+  background-color: black;
+}
+
+.box23 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 9;
+  grid-row-end: 10;
+  display: grid;
+  background-color: yellow;
+}
+
+.box24 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  display: grid;
+  background-color: black;
+}
+
+.box25 {
+  grid-column-start: 7;
+  grid-column-end: 9;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  display: grid;
+  background-color: yellow;
+}
